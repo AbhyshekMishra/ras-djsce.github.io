@@ -10,9 +10,8 @@ body {
 
 .center {
     position: absolute;
-    top: 5px;
-    left: 0px;
-    height: 2in;
+    top: 0px;
+    left: 20px;
     text-align: right;
 
 }
@@ -26,49 +25,49 @@ h1 {
 }
 
 header {
-    padding: 1px;
+    padding: 70px;
     background-color: rgb(0, 0, 0);
 }
 
 .intro{
     position: absolute;
     top: 5px;
-    right: 5px;
+    left: 960px;
     font-size: 20px;
     color: #ffffff;
 }
 .intro1{
     position: absolute;
     top: 30px;
-    right: 5px;
+    left: 960px;
     font-size: 20px;
     color: #ffffff;
 }
 .intro2{
     position: absolute;
     top: 55px;
-    right: 5px;
+    left: 960px;
     font-size: 20px;
     color: #ffffff;
 }
 .intro5{
     position: absolute;
     top: 80px;
-    right: 5px;
+    left: 960px;
     font-size: 20px;
     color: #ffffff;
 }
 .intro3{
     position: absolute;
     top: 105px;
-    right: 5px;
+    left: 960px;
     font-size: 20px;
     color: #ffffff;
 }
 .intro4{
     position: absolute;
     top: 130px;
-    right: 5px;
+    left: 960px;
     font-size: 20px;
     color: #ffffff;
 }
