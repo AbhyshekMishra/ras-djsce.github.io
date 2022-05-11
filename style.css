@@ -32,7 +32,7 @@ header {
 .intro{
     position: absolute;
     top: 5px;
-    left: 960px;
+    right: 0px;
     font-size: 20px;
     color: #ffffff;
 }
