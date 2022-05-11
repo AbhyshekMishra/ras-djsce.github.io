@@ -1,154 +1,89 @@
-* {
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-body {
-    float: left;
-    margin: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-.center {
-    position: absolute;
-    top: 5px;
-    left: 0px;
-    height: 2in;
-    text-align: right;
+<body>
+<header>
+    
+    <h1><img src="videos/djsceras.jpeg" width="30%" heigth="1%" style="float: left;" class="center" alt="DJSCE"></h1>
+    
+    <p class="intro">Email: ras.djscoe@gmail.com </p> 
+    <p class="intro1">Address: No. U, 15,Bhaktivedanta Swami Rd,</p> 
+    <p class="intro2">opp. Cooper Hospital, Navpada, </p> 
+    <p class="intro5">JVPD Scheme,Vile Parle,</p>
+    <p class="intro3"> Mumbai, Maharashtra 400056 </p>
+    <p class="intro4"> Phone: 022 4233 5000</p>
+</header>
+<nav>
+    <a target="_self" href="https://abhyshekmishra.github.io/ras-djsce.github.io/#:~:text=and%20Automation%20Society-,Committee,-The%20Core%2DCommittee">Home</a>
+    <a target="_self" href="https://abhyshekmishra.github.io/ras-djsce.github.io/#:~:text=and%20Automation%20Society-,Committee,-The%20Core%2DCommittee">Committee</a>
+    <a target="_self" href="https://abhyshekmishra.github.io/ras-djsce.github.io/#:~:text=Sushrut%20Kenkre-,Events,-About%20us">Events</a>
+    <a target="_self" href="https://abhyshekmishra.github.io/ras-djsce.github.io/#:~:text=Events-,About%20us,-R.A.S">About us</a>
+    <a target="_self" href="https://abhyshekmishra.github.io/ras-djsce.github.io/#:~:text=college%20of%20engineering.-,Contact%20us,-YouTube%C2%A0%C2%A0%7C%C2%A0%C2%A0%20LinkedIn">Contact</a>
+</nav>
+<main>
+    <section>
+            <h2>Home</h2>
+            <img src="videos/certificate.jpeg" width="80%" height="40%" alt="Robotics and Automation Society">
+            <br>
+            <img src="videos/bot.jpeg" width="80%" height="40%" alt="Robotics and Automation Society">
+            <h3>Robotics and Automation Society</h3>
+    </section>
+    <section>
+        <h2>Committee</h2>
+        <p>The Core-Committee for acaedemic year 2021-22 is:</p>
+        <ul>
+            <li>Vedarani Sawant</li>
+            <li>Manasi Sarvankar</li>
+            <li>Abhishek Mishra</li>
+            <li>Lobhas Patankar</li>
+            <li>Jash Ajmera</li>
+            <li>Darshan Oza</li>
+            <li>Siddhi Kelkar</li>
+            <li>Vedant Shah</li>
+            <li>Sushrut Kenkre</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Events</h2>
+        
+        <img class="arya" src="videos/event1.jpeg" width="33%" height="400px">
+        <img class="arya" src="videos/event2.jpeg" width="33%" height="400px">
+        <img class="arya" src="videos/event3.jpeg" width="33%" height="400px">
+        <iframe width="32.5%" height="400px" src="https://youtube.com/embed/H2UKfbAHeLM" frameborder="0" allowfullscreen></iframe>
+        <iframe width="32.5%" height="400px" src="https://youtube.com/embed/vToGlOTSoxQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+        <iframe width="32.5%" height="400px" src="https://youtube.com/embed/neuvPooBRX0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section>
+        <h2>About us</h2>
+        <p>R.A.S stands for Robotics and Automation Society. It’s a inter departmental society under branch of Mechanical Engineering, this student chapter was one of the very recent and aimed to be largest student chapter in DJ Sanghvi College of Engineering in terms of number of students Considering that RAS student chapter is among the youngest in DJ Sanghvi, the organizing committee planned to conduct numerous events which include competitions, industrial visits, guest lectures, workshops and value added programs.</p>
+        <p>Robotics And Automation Society (RAS), the only multidisciplinary Technical Student committee of DJ Sanghvi College of Engineering. The committee conducts events such as seminars and workshops related to robotics and automation in the Dwarkadas J sanghvi college of engineering.</p>
+    </section>
+    <section>
+        <h2>Contact us <img src="videos/svkmLogo.png" height="500px" style="float: left;" class="logo"></h2>
+        <br>
+        <a href="https://youtube.com/channel/UCxq3ND_aOVMSgM-DOdfD7jA" target="_blank" rel="noopener noreferrer" width="33%">YouTube</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/company/ras-robotics-and-automation-society-djsce/" target="_blank" rel="noopener noreferrer"  width="33%">LinkedIn</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://instagram.com/djsce_ras?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer"  width="33%">Instagram</a>
+    
+    </section>
 
-}
-
-h1 {
-    text-align: center; 
-    font-size: 80px;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
-}
-
-header {
-    padding: 1px;
-    background-color: rgb(0, 0, 0);
-}
-
-.intro{
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 20px;
-    color: #ffffff;
-}
-.intro1{
-    position: absolute;
-    top: 30px;
-    right: 5px;
-    font-size: 20px;
-    color: #ffffff;
-}
-.intro2{
-    position: absolute;
-    top: 55px;
-    right: 5px;
-    font-size: 20px;
-    color: #ffffff;
-}
-.intro5{
-    position: absolute;
-    top: 80px;
-    right: 5px;
-    font-size: 20px;
-    color: #ffffff;
-}
-.intro3{
-    position: absolute;
-    top: 105px;
-    right: 5px;
-    font-size: 20px;
-    color: #ffffff;
-}
-.intro4{
-    position: absolute;
-    top: 130px;
-    right: 5px;
-    font-size: 20px;
-    color: #ffffff;
-}
-
-
-a{
-    color:rgb(243, 243, 243);
-    font-family: Arial, Helvetica, sans-serif;
-}
-nav {
-    background-color: rgb(243, 86, 86);
-    overflow: hidden;
-}
-
-nav a {
-    text-decoration: none;
-    padding: 20px;
-    text-align: center;
-    float: left;
-    color: rgb(248, 248, 248);
-}
-
-main {
-    background-color: rgb(9, 130, 130);
-    text-align: center;
-    text-emphasis-color: white;
-}
-
-h2 {
-    text-align: center;
-    padding: 20px;
-    color: rgb(0, 3, 5);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-}
- 
-h3{
-    color: rgb(250, 250, 250);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-}
-ul{
-    list-style: none;
-}
-
-section:nth-child(even) {
-    background-color: rgb(241, 241, 241);
-}
-
-section {
-    min-height: 100vh;
-}
-
-video {
-    padding: 10px;
-}
-
-iframe {
-    height: 75vh;
-}
-
-.arya {
-    padding: 10px;
-    height: 75vh;
-}
+<hr>
 
 
-footer a {
-    text-decoration: none;
-    padding: 20px;
-    text-align: center;
-    float: left;
-    color: rgb(0, 0, 0);
-}
+</main>
 
-.logo{
-    display: block;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 80%;
-}
+<footer>
+    <a href="#">FAQ</a>
+    <a href="https://www.mailerlite.com/invite/d20016f5c6006">Newsletters</a>
+    <a href="#">Terms of Use</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Membership</a>
+    <a href="#">&copy; 2022 | DJSCE RAS</a>
+</footer>
+</body>
+</html>
